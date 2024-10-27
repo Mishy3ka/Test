@@ -49,7 +49,7 @@ func main() {
 	w.ShowAndRun()*/
 
 	a := app.New()
-	w := a.NewWindow("Authorization")
+	w := a.NewWindow("Оформление заказа")
 	w.Resize(fyne.NewSize(600, 500))
 
 	title := widget.NewLabel("Заказ Машины")
